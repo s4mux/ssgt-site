@@ -1,20 +1,20 @@
 # Site settings
-title: Swift
-description: A clean minimal Theme for Jekyll
+title_short: ssgt
+title: Sportschützen Giffers-Tentlingen
+description: Freude am Schiessen
 email: pranav@maangalabs.com
-baseurl: /swift
-url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
+url: "http://ssgt.ch" # the base hostname & protocol for your site
+timezone: Europe/Zurich
 #favicon
 favicon: /favicon.png
 
-#feed
-feedburner_username: maangalabs
+
 #twitter
 twitter_username: pranavrajs
-github_username:  pranavrajs
+#github_username:  pranavrajs
 
 #linkedin
-linkedin_username: pranavrajs
+#linkedin_username: pranavrajs
 
 #google analytics
 google_analytics_id : UA-53386152-2
@@ -25,13 +25,13 @@ gplus_username: 101893920934936418705
 fb_username: pranav.tayberrycreative
 
 #permalink /blog/2014/11/11/this-is-a-sample-post
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:title
 # Build settings
 markdown: kramdown
 
 #Disqus configuration
-disqus_short_name: maangalabscom
-disqus_show_comment_count: true
+#disqus_short_name: maangalabscom
+#disqus_show_comment_count: true
 
 #Can be used for multiple author blogs ! Add name to post For more visit the sample
 authors:
