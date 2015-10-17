@@ -16,18 +16,6 @@
           <li><a href="mailto:{{author.email}}" target="_blank"><i class="fa fa-send-o"></i></a></li>
         </ul>
     </div>
-    <div class="col-md-4">
-      
-        {% if page.github_repo_username %}
-        <div class="col-md-12">
-          <a class= "btn-primary btn-large" style="padding:10px; line-height: 44px; margin-left:-24px; text-decoration:none;" href = "//github.com/{{ page.github_repo_username }}/{{page.github_repo}}" target="_blank">Download Source</a>
-          <iframe style = "line-height:44px"src="http://ghbtns.com/github-btn.html?user={{ page.github_repo_username }}&repo={{page.github_repo}}&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe> 
-        </div>
-        {% endif %}
-
-    </div>
-    <div class="col-md-2"></div>
-    </div>
 </div>
 {% endif %}   
 
@@ -37,7 +25,7 @@
         href="{{page.previous.url}}" title="Previous Post:
         {{page.previous.title}}">&laquo; {{page.previous.title}}</a></li>
       {% endif %}
-      <li><a href="/blog/archives">Blog Archives</a></li>
+      <li><a href="/blog/archives">Archive</a></li>
       {% if page.next.url %}
       <li class="next"><a class="basic-alignment right" href="{{page.next.url}}"
         title="Next Post: {{page.next.title}}">{{page.next.title}}
