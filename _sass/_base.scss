@@ -18,6 +18,8 @@ html {
 
 body {
   margin: 0;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
