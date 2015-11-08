@@ -4,7 +4,7 @@ title: Vorstand
 permalink: /vorstand/
 ---
 
-<div class="row vorstand-row">
+<div class="row">
 {% for member in site.data.vorstand  %}
     <div class="col-md-6 vorstand">
     <p><strong>{{member.function}}</strong></p>
