@@ -1,4 +1,4 @@
-#template	  
+##############  template	  
 #- name: 
 #  function: 
 #  street: 
@@ -7,6 +7,7 @@
 #  phone: 
 #  mail: 
 
+############## actvie data
 
 - name: Pascal Broch
   function: Präsident
@@ -15,13 +16,13 @@
   mobile: 079 647 95 73
   phone: 026 305 25 61
   mail: pascal.broch67@gmail.com
-	  
+
 - name: Melanie Neuhaus
   function: Sekretärin
   street: Schützenweg 11
   town: 1737 Plasselb
   mobile: 079 102 92 55
-  mail: melanie.neuhaus@sensemail.ch	  
+  mail: melanie.neuhaus@sensemail.ch
 
 - name: Peter Scherwey
   function: Kassier
@@ -70,24 +71,16 @@
   mobile: 079 461 31 90
   mail: info@reisszahn.ch
 
-- name: Grégory Emmenegger
+- name: Gregory Emmenegger
   function: Beisitzer
   street: Rossistrasse 56
   town: 1735 Giffers
   mobile: 079 603 01 29
   mail: gre.emmenggger@bluewin.ch
-	  
+
 - name: Heinrich Zürcher
   function: Ehrenpräsident
   street: Harzerweg 25
   town: 1735 Giffers
   mobile: 079 690 57 34
-  mail: henri.zuercher@bluewin.ch
-
-
-
-
-						
-	  			
-	  			
-	  
+  mail: henri.zuercher@bluewin.ch 
