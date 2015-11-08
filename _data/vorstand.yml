@@ -1,0 +1,93 @@
+#template	  
+#- name: 
+#  function: 
+#  street: 
+#  town: 
+#  mobile: 
+#  phone: 
+#  mail: 
+
+
+- name: Pascal Broch
+  function: Präsident
+  street: Riederehubel 7
+  town: 1726 St. Silvester
+  mobile: 079 647 95 73
+  phone: 026 305 25 61
+  mail: pascal.broch67@gmail.com
+	  
+- name: Melanie Neuhaus
+  function: Sekretärin
+  street: Schützenweg 11
+  town: 1737 Plasselb
+  mobile: 079 102 92 55
+  mail: melanie.neuhaus@sensemail.ch	  
+
+- name: Peter Scherwey
+  function: Kassier
+  street: Oberzelg 13
+  town: 1734 Giffers
+  mobile: 079 658 46 94
+  phone: 026 305 34 15
+  mail: peter.scherwey@bluewin.ch
+  
+- name: Beat Waeber
+  function: Junioren-Trainer
+  street: Birkenweg 2
+  town: 1735 Tentlingen
+  mobile: 079 625 24 78
+  phone: 031 747 80 31 
+  mail: beat_bmw@yahoo.de
+  
+- name: Richard Fornerod
+  function: Veranwortlicher Gruppe 50m | Vizepräsident
+  street: Kreuzweg 24
+  town: 1734 Tentlingen
+  mobile: 079 263 31 34 
+  phone: 026 414 95 40 
+  mail: richard.fornerod@bluewin.ch
+  
+- name: Pascal Aeby
+  function: Verantwortlicher Gruppe 25m
+  street: Sageboden 81
+  town: 1737 Plasselb
+  mobile: 079 475 02 65
+  phone: 079 948 87 78
+  mail: aeby.pascal@hotmail.com
+  
+- name: Marius Rumo
+  function: Verantwortlicher Luftpistole
+  street: Neustadt 1
+  town: 1735 Giffers
+  mobile: 079 479 44 42
+  phone: 026 418 11 76
+  mail: marius.rumo@bluewin.ch
+
+- name: Olivier Schafer
+  function: Munitions-verantwortlicher
+  street: Eichholz 19
+  town: 1735 Giffers
+  mobile: 079 461 31 90
+  mail: info@reisszahn.ch
+
+- name: Grégory Emmenegger
+  function: Beisitzer
+  street: Rossistrasse 56
+  town: 1735 Giffers
+  mobile: 079 603 01 29
+  mail: gre.emmenggger@bluewin.ch
+	  
+- name: Heinrich Zürcher
+  function: Ehrenpräsident
+  street: Harzerweg 25
+  town: 1735 Giffers
+  mobile: 079 690 57 34
+  mail: henri.zuercher@bluewin.ch
+
+
+
+
+						
+	  			
+	  			
+	  
