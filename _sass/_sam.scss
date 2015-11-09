@@ -8,7 +8,6 @@
 }
 
 .logo-img > a {
-
   margin-top: 21px;
   width: 100%;
   height: auto;
@@ -17,10 +16,20 @@
 .vorstand{
   margin-bottom: 1cm;
   margin-top: 1cm;
+  padding-right:0px;
 }
 
 .vorstand-img{
   width: 100%;
   max-width: 256px !important;
   height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.vorstand-img-container{
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  padding-left:0px;
+  padding-right:0px;
 }
