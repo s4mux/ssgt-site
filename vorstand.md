@@ -10,7 +10,7 @@ permalink: /vorstand/
   {% if loopindex == 1 %}
   <div class="row">
     <div class="col-md-3 vorstand-img-container">
-      <img src="/images/vorstand/{{member.picture}}" alt="{{member.picture}}" class="vorstand-img">
+      <img src="{{ site.baseurl }}/images/vorstand/{{member.picture}}" alt="{{member.picture}}" class="vorstand-img">
     </div>
 	<div class="col-md-3 vorstand">
     <p style="text-align: left"><strong>{{member.function}}</strong></p>
@@ -25,7 +25,7 @@ permalink: /vorstand/
     </div>
   {% else %}
   <div class="col-md-3 vorstand-img-container">
-    <img src="/images/vorstand/{{member.picture}}" alt="{{member.picture}}"  class="vorstand-img">
+    <img src="{{ site.baseurl }}/images/vorstand/{{member.picture}}" alt="{{member.picture}}"  class="vorstand-img">
   </div>
     <div class="col-md-3 vorstand">
     <p style="text-align: left"><strong>{{member.function}}</strong></p>
@@ -37,7 +37,6 @@ permalink: /vorstand/
     <a href="{{mail[0]}}[bei]{{mail[1]}}"
        rel="nofollow"
        onclick="this.href='mailto:' + '{{mail[0]}}' + '@' + '{{mail[1]}}'">E-Mail</a>
-    </div>
     </div>
   </div>
   {% endif %}
