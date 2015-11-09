@@ -1,4 +1,4 @@
-##############  template	  
+##############  template
 #- name: 
 #  function: 
 #  street: 
@@ -7,8 +7,8 @@
 #  phone: 
 #  mail: 
 #  picture: default.jpg
+#pictures are loaded from images/vorstand/
 
-# pictures are loaded from images/vorstand/
 
 ############## actvie data
 
