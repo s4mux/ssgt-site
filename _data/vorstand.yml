@@ -6,6 +6,9 @@
 #  mobile: 
 #  phone: 
 #  mail: 
+#  picture: default.jpg
+
+# pictures are loaded from images/vorstand/
 
 ############## actvie data
 
@@ -24,6 +27,7 @@
   town: 1737 Plasselb
   mobile: 079 102 92 55
   mail: melanie.neuhaus@sensemail.ch
+  picture: default.jpg
 
 - name: Peter Scherwey
   function: Kassier
@@ -32,6 +36,7 @@
   mobile: 079 658 46 94
   phone: 026 305 34 15
   mail: peter.scherwey@bluewin.ch
+  picture: default.jpg
   
 - name: Beat Waeber
   function: Junioren-Trainer
@@ -40,6 +45,7 @@
   mobile: 079 625 24 78
   phone: 031 747 80 31 
   mail: beat_bmw@yahoo.de
+  picture: default.jpg
   
 - name: Richard Fornerod
   function: Gruppe 50m | Vizepräsident
@@ -48,6 +54,7 @@
   mobile: 079 263 31 34 
   phone: 026 414 95 40 
   mail: richard.fornerod@bluewin.ch
+  picture: default.jpg
   
 - name: Pascal Aeby
   function: Gruppe 25m
@@ -56,6 +63,7 @@
   mobile: 079 475 02 65
   phone: 079 948 87 78
   mail: aeby.pascal@hotmail.com
+  picture: default.jpg
   
 - name: Marius Rumo
   function: Luftpistole
@@ -64,6 +72,7 @@
   mobile: 079 479 44 42
   phone: 026 418 11 76
   mail: marius.rumo@bluewin.ch
+  picture: default.jpg
 
 - name: Olivier Schafer
   function: Munition
@@ -71,6 +80,7 @@
   town: 1735 Giffers
   mobile: 079 461 31 90
   mail: info@reisszahn.ch
+  picture: default.jpg
 
 - name: Gregory Emmenegger
   function: Beisitzer
@@ -78,6 +88,7 @@
   town: 1735 Giffers
   mobile: 079 603 01 29
   mail: gre.emmenggger@bluewin.ch
+  picture: default.jpg
 
 - name: Heinrich Zürcher
   function: Ehrenpräsident
@@ -85,3 +96,4 @@
   town: 1735 Giffers
   mobile: 079 690 57 34
   mail: henri.zuercher@bluewin.ch 
+  picture: default.jpg
