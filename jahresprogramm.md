@@ -6,7 +6,7 @@ permalink: /jahresprogramm/
 
 <p>Jahresprogramm 2016 plus Schiesszeiten Schützenhaus Giffers-Tentlingen</p>
 
-<table class="table table-hover">
+<table class="table table-striped table-hover">
   <thead>
     <tr>
       <th>Datum</th>
@@ -14,7 +14,7 @@ permalink: /jahresprogramm/
       <th>Anlass</th>
     </tr>
   </thead>
-
+  <tbody>
 {% for event in site.data.jahresprogramm %}
 {% if event.color                        %}
 {%   if event.color == 'green'           %}
@@ -33,14 +33,14 @@ permalink: /jahresprogramm/
 {%   assign color = ""                   %}
 {% endif                                 %}
 
-  <tbody>
+
     <tr class="{{color}}">
       <td>{{event.date}}</td>
       <td>{{event.time}}</td>
       <td>{{event.description}}</td>
     </tr>
-  </tbody>
 {% endfor %}
+  </tbody>
 </table>
 
 
