@@ -6,7 +6,7 @@ permalink: /jahresprogramm/
 
 <p>Jahresprogramm 2016 plus Schiesszeiten Schützenhaus Giffers-Tentlingen</p>
 
-<table class="table table-striped table-hover">
+<table class="table table-hover">
   <thead>
     <tr>
       <th>Datum</th>
