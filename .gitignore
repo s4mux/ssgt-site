@@ -3,3 +3,7 @@ _site/
 .DS_Store
 *.esproj
 
+/_site/*
+/.sass-cache/*
+package-lock.json
+node_modules
