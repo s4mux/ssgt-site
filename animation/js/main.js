@@ -227,35 +227,40 @@ tl_ShowLogo.add({
 //Zoom in:
 tl_ShowLogo.add({
   targets: "svg",
-  viewBox: ["160 160 680 680", "320 392 340 280"],
+  viewBox: ["160 160 2720 680", "320 392 1120 280"],
   duration: 1800,
   easing: "easeInOutSine"
 }, startZoomIn);
 
 
 //Expand:
-tl_ShowLogo.add({
-  targets: "svg",
-  //opacity: [1.0, 0.0],
-  viewBox: ["320 392 340 280", "320 392 1100 280"],
-  duration: 500,
-  easing: "easeInOutSine"
-}, startZoomIn+1800);
+//tl_ShowLogo.add({
+//  targets: "svg",
+//  //opacity: [1.0, 0.0],
+//  viewBox: ["320 392 1120 280", "320 392 1120 280"],
+//  duration: 500,
+//  easing: "easeInOutSine"
+//}, startZoomIn+1800);
+
+var testOffset = 2200
 
 tl_ShowLogo.add({
   targets: "#Titel",
-  duration: 1800,
-  translateX: [300, 0],
+  duration: 2800,
+  translateX: [2720, 0],
+  opacity: [0.0, 1.0],
   easing: "easeInOutSine"
-}, startZoomIn+1800);
+}, startZoomIn+1800 - testOffset);
 
 
 tl_ShowLogo.add({
   targets: "#SubTitel",
-  duration: 1600,
-  translateX: [500, 0],
+  duration: 2600,
+  translateX: [2720, 0],
+  
+  opacity: [0.0, 1.0],
   easing: "easeInOutSine"
-}, startZoomIn+1800+200);
+}, startZoomIn+1800+500 - testOffset);
 
 
 //$("svg").css("height", (screenHeight-nabarHeight) + "px").css("width", screenWidth + "px");

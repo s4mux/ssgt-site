@@ -248,6 +248,7 @@ tl_ShowLogo.add({
   targets: "#Titel",
   duration: 2800,
   translateX: [2720, 0],
+  opacity: [0.0, 1.0],
   easing: "easeInOutSine"
 }, startZoomIn+1800 - testOffset);
 
@@ -256,6 +257,8 @@ tl_ShowLogo.add({
   targets: "#SubTitel",
   duration: 2600,
   translateX: [2720, 0],
+  
+  opacity: [0.0, 1.0],
   easing: "easeInOutSine"
 }, startZoomIn+1800+500 - testOffset);
 
