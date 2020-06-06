@@ -1,8 +1,9 @@
 const config = {
     dev: {
-        sites: "./content/sites",
-        design: "./design",
-        outdir: "./public"
+        siteConfig: "./content/site.json",
+        content: "./content/",
+        //design: "./design",
+        outdir: "./publicTest"
     }
 }
 

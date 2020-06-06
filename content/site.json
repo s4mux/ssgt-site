@@ -1,0 +1,13 @@
+{
+    "index": {
+        "template": "index.html"
+    },
+    "baseTemplate": "template.html",
+    "sites": [{
+            "template": "Aergerameisterschaft.html"
+        },
+        {
+            "template": "Vorstand.html"
+        }
+    ]
+}
