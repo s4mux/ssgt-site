@@ -3,7 +3,7 @@ const config = {
         siteConfig: "./content/site.json",
         content: "./content/",
         //design: "./design",
-        outdir: "./publicTest"
+        outdir: "./public"
     }
 }
 
