@@ -23,7 +23,7 @@ function CreateSite(site, baseContext, destination){
   if(!site.hasOwnProperty("template")) throw "site must have property template"
   
   var siteContext =site.hasOwnProperty("context") ?  site.context : {};
-  var siteTemplate = Handlebars.compile('"' +fs.readFileSync(config.dev.content + site.template)+ '"');
+  var siteTemplate = Handlebars.compile(fs.readFileSync(config.dev.content + site.template, {encoding: 'utf8'}));
   var content = siteTemplate(siteContext);
 
   //Then, we render the site in the base template
@@ -31,7 +31,7 @@ function CreateSite(site, baseContext, destination){
 
 //var index = fs.readFileSync("../content/index.html");
 
-const template = Handlebars.compile('"' + fs.readFileSync(config.dev.content + siteConfig.baseTemplate) + '"');
+const template = Handlebars.compile(fs.readFileSync(config.dev.content + siteConfig.baseTemplate, {encoding: 'utf8'}));
 
 const months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
 
