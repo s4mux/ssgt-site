@@ -24,23 +24,47 @@ function CreateSite(site, baseContext, destination){
   
   var siteContext =site.hasOwnProperty("context") ?  site.context : {};
   var siteTemplate = Handlebars.compile(fs.readFileSync(config.dev.content + site.template, {encoding: 'utf8'}));
-  var content = siteTemplate(siteContext);
+  baseContext.content = siteTemplate(siteContext);
 
   //Then, we render the site in the base template
-
-
-//var index = fs.readFileSync("../content/index.html");
-
-const template = Handlebars.compile(fs.readFileSync(config.dev.content + siteConfig.baseTemplate, {encoding: 'utf8'}));
-
-const months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
-
-today = new Date();
-dateString = "" + today.getDate() + ". " + months[today.getMonth()] + " " + today.getFullYear();
-
-fs.writeFileSync( config.dev.outdir + "/" + destination, template({ content: content, date: dateString, fullYear: today.getFullYear() }));
-
+  
+  baseContext.title =site.hasOwnProperty("title") ?  site.title : null;
+  const template = Handlebars.compile(fs.readFileSync(config.dev.content + siteConfig.baseTemplate, {encoding: 'utf8'}));
+  fs.mkdirSync(config.dev.outdir + "/" + site.permalink, {recursive: true});
+  fs.writeFileSync( config.dev.outdir + "/" + site.permalink + "/index.html", template(baseContext));
 }
 
 
-CreateSite({template: "index.html"}, {}, "index.html");
+function CreateBaseContext(){
+
+  //Read Stylesheets
+  var styles = [];
+  siteConfig.styles.forEach(element => {
+    styles.push(fs.readFileSync(config.dev.content + element, "utf8"));
+  });
+  
+  //Read Scripts
+  var scripts = [];
+  siteConfig.scripts.forEach(element => {
+    scripts.push(fs.readFileSync(config.dev.content + element, "utf8"));
+  });
+
+  const months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+  today = new Date();
+  dateString = "" + today.getDate() + ". " + months[today.getMonth()] + " " + today.getFullYear();
+
+
+
+
+
+  return { content: "", date: dateString, fullYear: today.getFullYear(), styles: styles, scripts: scripts };
+}
+
+baseContext = CreateBaseContext();
+
+
+siteConfig.sites.forEach(element => {
+  CreateSite(element, baseContext, "index.html");
+});
+
+

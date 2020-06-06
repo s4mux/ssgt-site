@@ -17,11 +17,13 @@
 
 
 
-  <title>Sportschützen Giffers-Tentlingen</title>
+  <title>{{#if title}}{{title}} | {{/if}}Sportschützen Giffers-Tentlingen</title>
+
+  {{#each styles}}
+    <style>{{{this}}}</style>
+  {{/each}}
 
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -453,10 +455,10 @@
 
 </body>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/anime.min.js"></script>
-<script src="js/main.js"></script>
+
+{{#each scripts}}
+<script>{{{this}}}</script>
+{{/each}}
 
 </body>
 

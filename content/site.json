@@ -1,13 +1,29 @@
 {
-    "index": {
-        "template": "index.html"
-    },
-    "baseTemplate": "template.html",
-    "sites": [{
-            "template": "Aergerameisterschaft.html"
+    "baseTemplate": "sites/template.html",
+    "styles": [
+        "/css/bootstrap.min.css",
+        "/css/style.css"
+    ],
+    "scripts":[
+        "/js/jquery.min.js",
+        "/js/bootstrap.bundle.min.js",
+        "/js/anime.min.js",
+        "/js/main.js"
+    ],
+    "sites": [
+        {
+            "template": "sites/home.html",
+            "permalink": ""
         },
         {
-            "template": "Vorstand.html"
+            "template": "sites/aergerameisterschaft.html",
+            "permalink": "/aergerameisterschaft/",
+            "title": "Ärgerameisterschaft"
+        },
+        {
+            "template": "sites/vorstand.html",
+            "permalink": "vorstand",
+            "title": "Vorstand"
         }
     ]
 }
