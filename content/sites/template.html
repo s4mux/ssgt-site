@@ -409,17 +409,19 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
         <ul class="navbar-nav ml-autov ">
+
+          {{#each navbar}}
           <li class="nav-item">
-            <a class="nav-link" href="#home">
-              Home
+            <a class="nav-link {{#if active}}active{{/if}}" href="{{link}}">
+              {{name}}
             </a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#jp">
-              Jahresprogramm
-            </a>
-          </li>
+          {{/each}}
+
+
+          
+
 
         </ul>
       </div>
