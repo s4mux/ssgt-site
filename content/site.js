@@ -21,20 +21,20 @@ module.exports = {
             permalink: "/jahresprogramm/",
             title: "Jahresprogramm",
             navbar: "Jahresprogramm"
-        }//,
+        },
         //{
         //    template: "sites/aergerameisterschaft.html",
         //    permalink: "/aergerameisterschaft/",
         //    title: "Ärgerameisterschaft",
         //    navbar: "Ärgerameisterschaft"
         //},
-        //{
-        //    template: "sites/vorstand.html",
-        //    permalink: "/vorstand/",
-        //    title: "Vorstand",
-        //    navbar: "Vorstand",
-        //    context: "vorstand.js"
-        //}//,
+        {
+            template: "sites/vorstand.html",
+            permalink: "/vorstand/",
+            title: "Vorstand",
+            navbar: "Vorstand",
+            context: "vorstand.js"
+        }//,
         //{
         //    "template": "sites/archiv.html",
         //    "permalink": "/archiv/",
