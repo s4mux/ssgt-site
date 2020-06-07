@@ -1,6 +1,6 @@
 const config = {
     dev: {
-        siteConfig: "./content/site.json",
+        siteConfig: "./content/site.js",
         content: "./content/",
         //design: "./design",
         outdir: "./public"
