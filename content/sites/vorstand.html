@@ -11,9 +11,10 @@
                 <h5 class="card-title">{{vorname}} {{name}}</h5>
                 <p class="card-text">{{strasse}}<br>{{plz}} {{ort}}</p>
                 
-              <a href="#" class="card-link">{{mail}}</a>
             </div>
             <ul class="list-group list-group-flush">
+              
+              {{#if mail}}<li class="list-group-item"><a href="mailto:{{mail}}" class="card-link">{{mail}}</a></li>{{/if}}
               {{#if privat}}<li class="list-group-item">{{privat}}</li>{{/if}}
             </ul>
 </div>

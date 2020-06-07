@@ -44,7 +44,7 @@ module.exports = [
         plz:  "1716",
         ort:  "Plaffeien",
         seit:  "2018",
-        privat:  "079 343 40 6",
+        privat:  "079 343 40 62",
         mailAlias:  "kurt.staub47@gmail.com",
         mail: "junioren@ssgt.ch"
     },
@@ -84,7 +84,7 @@ module.exports = [
         privat:  "079 263 31 34 ",
         geschäft:  "026 414 95 40 ",
         mailAlias:  "richard.fornerod@bluewin.ch",
-        mail: "gruppe-25-meter@ssgt.ch"
+        mail: "gruppe-50-meter@ssgt.ch"
     },
     {
         funktion:[  "Luftpistole"],
