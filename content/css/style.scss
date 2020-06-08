@@ -43,4 +43,17 @@ svg{
   }
   
 
+
+  @media screen and (min-width: 530px){
+    .jumbo-title{
+      display: block;
+    }
+  }
+
   
+
+  @media screen and (max-width: 529px){
+    .jumbo-title{
+      display: none;
+    }
+  }
