@@ -22,12 +22,12 @@ module.exports = {
             title: "Jahresprogramm",
             navbar: "Jahresprogramm"
         },
-        //{
-        //    template: "sites/aergerameisterschaft.html",
-        //    permalink: "/aergerameisterschaft/",
-        //    title: "Ärgerameisterschaft",
-        //    navbar: "Ärgerameisterschaft"
-        //},
+        {
+            template: "sites/aergerameisterschaft.html",
+            permalink: "/aergerameisterschaft/",
+            title: "Ärgerameisterschaft",
+            navbar: "Ärgerameisterschaft"
+        },
         {
             template: "sites/vorstand.html",
             permalink: "/vorstand/",
