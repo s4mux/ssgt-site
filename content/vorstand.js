@@ -32,9 +32,9 @@ module.exports = [
         plz:  "1737",
         ort:  "Plasselb",
         seit:  "2020",
-        privat:  "079 861 76 80",
+        //privat:  "079 861 76 80",
         mailAlias: "etu1998@hotmail.com",
-        mail:  "kassier@ssgt.ch",
+        //mail:  "kassier@ssgt.ch",
     },
     {
         funktion:[  "Junioren-Trainer"],
