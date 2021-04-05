@@ -38,14 +38,7 @@ module.exports = [
     },
     {
         funktion:[  "Junioren-Trainer"],
-        name:  "Staub",
-        vorname:  "Kurt",
-        strasse:  "Rainweg 1",
-        plz:  "1716",
-        ort:  "Plaffeien",
-        seit:  "2018",
-        privat:  "079 343 40 62",
-        mailAlias:  "kurt.staub47@gmail.com",
+        name:  "Vakant",
         mail: "junioren@ssgt.ch"
     },
     {
@@ -69,7 +62,7 @@ module.exports = [
         plz:  "1737",
         ort:  "Plasselb",
         seit:  "????",
-        privat:  "078 760 20 03",
+        privat:  "079 358 12 96",
         mailAlias:  "aeby.pascal@hotmail.com",
         mail: "gruppe-25-meter@ssgt.ch"
     },
