@@ -38,8 +38,15 @@ module.exports = [
     },
     {
         funktion:[  "Junioren-Trainer"],
-        name:  "Vakant",
-        mail: "junioren@ssgt.ch"
+        name:  "Waeber",
+        vorname: "Beat",
+        strasse: "Uf em Bärg 25A",
+        plz:  "1734",
+        ort:  "Tentlingen",
+        seit:  "2021",
+        privat:  "079 625 24 78",
+        mail: "junioren@ssgt.ch",
+        mailAlias:  "waeber.beat@yahoo.de",
     },
     {
         funktion:  ["Vizepräsident"],
