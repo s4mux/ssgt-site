@@ -2,8 +2,8 @@
 
 $errors = '';
 
-echo $_POST['human']
-echo ('' != $_POST['human'])
+echo $_POST['human'];
+echo ('' != $_POST['human']);
 
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
