@@ -1,12 +1,3 @@
-<html>
- <head>
-  <title>PHP-Test</title>
- </head>
- <body>
- <?php echo '<p>Hallo Welt</p>'; ?>
-
-
-
 <?php
 
 $errors = '';
@@ -41,11 +32,8 @@ $to = "$destination"."@ssgt.ch";
 
 $email_subject = "SSGT Kontaktanfrage von $name";
 
-$email_body = "Hallo $destinationName\n\nDu hast eine Nachricht über unsere Website erhalten.\n\nHier sind die Details:\n".
+$email_body = "Hallo $destinationName\n\nDu hast eine Nachricht von $name ($email_address) über unsere Website erhalten:\n\n $message".
 
-"\tName: $name \n ".
-"\tE-Mail: $email_address\n".
-"\tNachricht: \n $message";
 
 $headers = "From: webserver@ssgt.ch\n";
 
@@ -60,13 +48,20 @@ if(mail($to,$email_subject,$email_body,$headers)){
 
 //redirect to the 'thank you' page
 
-header('Location: /');
+header('Location: /vorstand');
 
 }
 
 
 ?>
 
+
+<html>
+ <head>
+  <title>SSGT Contact Backend</title>
+ </head>
+ <body>
+ <p>Besuche unsere <a href="/vorstand">Website</a> um das Kontakt-Formular auszufüllen.</p>'>
 
 </body>
 </html>
