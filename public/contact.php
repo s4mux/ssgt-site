@@ -5,23 +5,22 @@ $myemail = 'yourname@website.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']) || 
-   !empty($_POST['robot']) || 
    empty($_POST['destination']) || 
-   empty($_POST['destinationName']))
+   empty($_POST['destinationName'] ||
+   !empty($_POST['human']) ||
+   isset($_POST['human']) ))
 {
     $errors .= "\n Error: Es sind nicht alle Felder gültig ausgefüllt";
 }
 else{
-$name = $_POST['name']; 
-$email_address = $_POST['email']; 
-$message = $_POST['message'];
-$destination = $_POST['destination'];
-$destinationName = $_POST['destinationName'];
+  $name = $_POST['name']; 
+  $email_address = $_POST['email']; 
+  $message = $_POST['message'];
+  $destination = $_POST['destination'];
+  $destinationName = $_POST['destinationName'];
 
-if (!preg_match(
-"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
-$email_address))
-{
+  if(!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", $email_address))
+  {
     $errors .= "\n Error: Ungültige E-Mail.";
 }
 }
