@@ -1,7 +1,10 @@
 <?php
 
 $errors = '';
-$myemail = 'yourname@website.com';//<-----Put Your email address here.
+
+echo $_POST['human']
+echo ('' != $_POST['human'])
+
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']) || 
