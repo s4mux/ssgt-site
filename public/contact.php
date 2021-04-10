@@ -2,15 +2,18 @@
 
 $errors = '';
 
-echo $_POST['human'];
-echo ('' =! $_POST['human']);
+$botTest = FALSE;
+
+if(array_key_exists('human', $_POST)){
+  $botTest = '' == $_POST['human'];
+}
 
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']) || 
    empty($_POST['destination']) || 
    empty($_POST['destinationName'] ||
-   '' =! $_POST['human'] ))
+   $botTest))
 {
     $errors .= "\n Error: Es sind nicht alle Felder gültig ausgefüllt";
 }
