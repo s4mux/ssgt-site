@@ -10,7 +10,7 @@ module.exports = [
         privat:  "079 647 95 73",
         geschäft:  "026 305 25 61",
         mailAlias:  "pascal.broch67@gmail.com",
-        mail: "praesident@ssgt.ch"
+        mail: "praesident" //@ssgt.ch
     },
     {
         funktion:[  "Sekretärin"],
@@ -22,7 +22,7 @@ module.exports = [
         seit:  "2015",
         privat:  "079 102 92 55",
         mailAlias:  "melanie.neuhaus@sensemail.ch",
-        mail: "sekretariat@ssgt.ch"
+        mail: "sekretariat" //@ssgt.ch
     },
     {
         funktion:[  "Kassier"],
@@ -32,9 +32,9 @@ module.exports = [
         plz:  "1737",
         ort:  "Plasselb",
         seit:  "2020",
-        //privat:  "079 861 76 80",
+        privat:  "079 861 76 80",
         mailAlias: "etu1998@hotmail.com",
-        //mail:  "kassier@ssgt.ch",
+        mail:  "kassier" //@ssgt.ch,
     },
     {
         funktion:[  "Junioren-Trainer"],
@@ -45,8 +45,8 @@ module.exports = [
         ort:  "Tentlingen",
         seit:  "2021",
         privat:  "079 625 24 78",
-        mail: "junioren@ssgt.ch",
         mailAlias:  "waeber.beat@yahoo.de",
+        mail: "junioren" //@ssgt.ch
     },
     {
         funktion:  ["Vizepräsident"],
@@ -59,7 +59,7 @@ module.exports = [
         privat:  "079 263 31 34 ",
         geschäft:  "026 414 95 40 ",
         mailAlias:  "richard.fornerod@bluewin.ch",
-        mail: "vize-praesident@ssgt.ch"
+        mail: "vize-praesident" //@ssgt.ch
     },
     {
         funktion:[  "Gruppe 25 Meter"],
@@ -71,7 +71,7 @@ module.exports = [
         seit:  "????",
         privat:  "079 358 12 96",
         mailAlias:  "aeby.pascal@hotmail.com",
-        mail: "gruppe-25-meter@ssgt.ch"
+        mail: "gruppe-25-meter" //@ssgt.ch
     },
     {
         funktion:  ["Gruppe 50 Meter"],
@@ -84,7 +84,7 @@ module.exports = [
         privat:  "079 263 31 34 ",
         geschäft:  "026 414 95 40 ",
         mailAlias:  "richard.fornerod@bluewin.ch",
-        mail: "gruppe-50-meter@ssgt.ch"
+        mail: "gruppe-50-meter" //@ssgt.ch
     },
     {
         funktion:[  "Luftpistole"],
@@ -97,7 +97,7 @@ module.exports = [
         privat:  "079 479 44 42",
         geschäft:  "026 418 07 89",
         mailAlias:  "marius.rumo@bluewin.ch",
-        mail: "lupi@ssgt.ch"
+        mail: "lupi" //@ssgt.ch
     },
     {
         funktion:[  "Luftpistole"],
@@ -109,7 +109,7 @@ module.exports = [
         seit:  "2020",
         privat:  "079 245 53 69",
         mailAlias:  "myriam.kuno@bluewin.ch",
-        mail: "lupi@ssgt.ch"
+        mail: "lupi" //@ssgt.ch
     },
     {
         funktion:[  "Homepage"],
@@ -122,7 +122,7 @@ module.exports = [
         privat:  "079 359 07 90",
         geschäft:  "",
         mailAlias:  "fasel-therese@bluewin.ch",
-        mail: "web@ssgt.ch"
+        mail: "web" //@ssgt.ch
     },
     {
         funktion:[  "Wirtin"],
@@ -134,7 +134,7 @@ module.exports = [
         seit:  "2020",
         privat:  "079 614 98 78",
         mailAlias:  "hayoz.charlotte@gmail.com",
-        mail: "buvette@ssgt.ch"
+        mail: "buvette" //@ssgt.ch
     },{
         funktion:  ["Munition"],
         name:  "Fornerod",
@@ -146,7 +146,7 @@ module.exports = [
         privat:  "079 263 31 34 ",
         geschäft:  "026 414 95 40 ",
         mailAlias:  "richard.fornerod@bluewin.ch",
-        mail: "munition@ssgt.ch"
+        mail: "munition" //@ssgt.ch
     }
     //{
     //    funktion:[  "Ehrenpräsident"],

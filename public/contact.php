@@ -17,7 +17,7 @@ if(empty($_POST['name'])  ||
 {
     $errors .= "\n Error: Es sind nicht alle Felder gültig ausgefüllt";
 }
-
+else{
 $name = $_POST['name']; 
 $email_address = $_POST['email']; 
 $message = $_POST['message'];
@@ -30,6 +30,7 @@ $email_address))
 {
     $errors .= "\n Error: Ungültige E-Mail.";
 }
+}
 
 
 if( empty($errors))
@@ -40,11 +41,11 @@ $to = "$destination"."@ssgt.ch";
 
 $email_subject = "SSGT Kontaktanfrage von $name";
 
-$email_body = "Hallo $destinationName\n Du hast eine Nachricht über unsere Website erhalten. Hier sind die Details: \n\n ".
+$email_body = "Hallo $destinationName\n\nDu hast eine Nachricht über unsere Website erhalten.\n\nHier sind die Details:\n".
 
 "  Name: $name \n ".
-
-"  E-Mail: $email_address\n Message \n $message";
+"  E-Mail: $email_address\n".
+"  Nachricht: \n $message";
 
 $headers = "From: webserver@ssgt.ch\n";
 
@@ -52,14 +53,14 @@ $headers .= "Reply-To: $email_address";
 
 if(mail($to,$email_subject,$email_body,$headers)){
 
-  mail($email_address, "Kontaktanfrage an $destinationName", "Hallo $name\n Ich habe deine Nachricht an $destinationName verschickt.\n \n Der SSGT-WebServer\n\nDeine Nachricht:\n\n$message", "From: webserver@ssgt.ch");
+  mail($email_address, "Kontaktanfrage an $destinationName", "Hallo $name\n\nIch habe deine Nachricht an $destinationName verschickt.\n \n  --Der SSGT-WebServer\n\n\n\Original Nachricht:\n\n$message", "From: webserver@ssgt.ch");
 
 
 }
 
 //redirect to the 'thank you' page
 
-//header('Location: contact-form-thank-you.html');
+header('Location: /');
 
 }
 
