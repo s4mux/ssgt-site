@@ -52,7 +52,7 @@ $headers .= "Reply-To: $email_address";
 
 if(mail($to,$email_subject,$email_body,$headers)){
 
-  mail($email_address, "Kontaktanfrage an $destinationName", "Hallo $name\n Ich habe deine Nachricht an $destinationName verschickt.\n \n Der SSGT-WebServer\n\nDeine Nachricht:\n\n$message", "From: webserver@ssgt.ch")
+  mail($email_address, "Kontaktanfrage an $destinationName", "Hallo $name\n Ich habe deine Nachricht an $destinationName verschickt.\n \n Der SSGT-WebServer\n\nDeine Nachricht:\n\n$message", "From: webserver@ssgt.ch");
 
 
 }
