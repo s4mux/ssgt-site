@@ -43,9 +43,9 @@ $email_subject = "SSGT Kontaktanfrage von $name";
 
 $email_body = "Hallo $destinationName\n\nDu hast eine Nachricht über unsere Website erhalten.\n\nHier sind die Details:\n".
 
-"  Name: $name \n ".
-"  E-Mail: $email_address\n".
-"  Nachricht: \n $message";
+"\tName: $name \n ".
+"\tE-Mail: $email_address\n".
+"\tNachricht: \n $message";
 
 $headers = "From: webserver@ssgt.ch\n";
 
@@ -53,7 +53,7 @@ $headers .= "Reply-To: $email_address";
 
 if(mail($to,$email_subject,$email_body,$headers)){
 
-  mail($email_address, "Kontaktanfrage an $destinationName", "Hallo $name\n\nIch habe deine Nachricht an $destinationName verschickt.\n \n  --Der SSGT-WebServer\n\n\n\Original Nachricht:\n\n$message", "From: webserver@ssgt.ch");
+  mail($email_address, "Kontaktanfrage an $destinationName", "Hallo $name\n\nIch habe deine Nachricht an $destinationName verschickt.\n \n\tDer SSGT-WebServer\n\n\nOriginal Nachricht:\n\n$message", "From: webserver@ssgt.ch");
 
 
 }
