@@ -5,6 +5,7 @@ $errors = '';
 $botTest = FALSE;
 
 if(array_key_exists('human', $_POST)){
+  echo "key human exists"
   $botTest = '' == $_POST['human'];
 }
 
@@ -13,7 +14,7 @@ if(empty($_POST['name'])  ||
    empty($_POST['message']) || 
    empty($_POST['destination']) || 
    empty($_POST['destinationName'] ||
-   $botTest))
+   !$botTest))
 {
     $errors .= "\n Error: Es sind nicht alle Felder gültig ausgefüllt";
 }
