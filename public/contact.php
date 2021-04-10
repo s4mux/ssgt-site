@@ -9,7 +9,7 @@ if(array_key_exists('human', $_POST)){
   $botTest = '' == $_POST['human'];
 }
 
-echo "Bot test: " . $botTest;
+echo "Bot test: " . ($botTest ? "HUMAN" : "BOT");
 
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
