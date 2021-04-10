@@ -32,7 +32,7 @@ $to = "$destination"."@ssgt.ch";
 
 $email_subject = "SSGT Kontaktanfrage von $name";
 
-$email_body = "Hallo $destinationName\n\nDu hast eine Nachricht von $name ( $email_address ) über unsere Website erhalten:\n\n $message"
+$email_body = "Hallo $destinationName\n\nDu hast eine Nachricht von $name ( $email_address ) über unsere Website erhalten:\n\n $message";
 
 
 $headers = "From: webserver@ssgt.ch\n";
