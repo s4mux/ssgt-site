@@ -5,7 +5,7 @@ $errors = '';
 $botTest = FALSE;
 
 if(array_key_exists('human', $_POST)){
-  echo "key human exists"
+  
   $botTest = '' == $_POST['human'];
 }
 
