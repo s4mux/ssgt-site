@@ -14,7 +14,7 @@ if(empty($_POST['name'])  ||
    empty($_POST['message']) || 
    empty($_POST['destination']) || 
    empty($_POST['destinationName'] ||
-   !$isHuman))
+   ! $isHuman))
 {
     $errors .= "\n Error: Es sind nicht alle Felder gültig ausgefüllt";
 }
